@@ -1,0 +1,15 @@
+import personaje.*
+import wollok.game.*
+import niveles.*
+
+program PepitaGame {
+	
+	game.title("Pepita")
+	game.height(15)
+	game.width(24)
+	game.boardGround("fondoo.jpg")
+	juegoPepita.configurar()
+	game.start()
+	
+
+}
